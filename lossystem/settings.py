@@ -25,7 +25,7 @@ SECRET_KEY = '-d_((s-_vx@g565j#iheof!a(umqem9aoglb-k@0kab@jg3*+6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['lossystem.azurewebsites.net']
+ALLOWED_HOSTS = ['lossystem.azurewebsites.net', ]
 
 
 # Application definition
