@@ -1,0 +1,17 @@
+<h1>Hallo {{ user.username }}</h1>
+
+<ul>
+{% for t in moegliche_treffen %}
+<li id="treffen-{{ t.id }}">
+  {{ t }} – <a href="{% url 'anmelden' t.id %}" class="anmelden">Anmelden</a>
+</li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for t in angemeldet %}
+<li>
+  {{ t }} – <a href="{% url 'abmelden' t.id %}" class="abmelden">Abmelden</a>
+</li>
+{% endfor %}
+</ul>
