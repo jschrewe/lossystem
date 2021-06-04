@@ -1,4 +1,4 @@
-Django==2.2.6
+Django==2.2.21
 django-allauth==0.40.0
 django-extensions==2.2.5
 django-admin-actions==0.1.1
